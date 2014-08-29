@@ -1,0 +1,42 @@
+/*
+    Main Css file
+    Created on : 17-jan-2014, 11:42:56
+    Author     : dionbosschieter
+*/
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    background-color: #eee;
+}
+
+hr {border-color: #DDDDDD;}
+
+#site-container {
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer {
+    color: #0D6AD0;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 60px;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.loadert { display: none;}
+
+.page-user table td { width: 50%;}
+.zoekveld {width: 200px;}
+
+.login-container .item-block {
+  width: 400px;
+  margin: 0 auto;
+  border: 1px solid #dddddd;
+  padding: 10px;
+  background: #ffffff;
+}
+
+.login-container .item-userhead { text-align: center; font-size: 32px; }
