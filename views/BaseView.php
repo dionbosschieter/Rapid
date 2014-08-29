@@ -54,7 +54,7 @@ abstract class BaseView
         <div class="navbar-collapse collapse menuBox">
           <ul class="nav navbar-nav">
             <li><a class="navbar-home" href="<?php echo GlobalURL::SITEROOT; ?>/">home</a></li>
-            <li><a class="navbar-gebruikers" href="<?php echo GlobalURL::getUrl(array(GlobalURL::SITEROOT, GlobalUrl::SECTION_USERS)); ?>/">Gebruikers</a></li>
+            <li><a class="navbar-gebruikers" href="<?php echo GlobalURL::getUrl(array(GlobalURL::SITEROOT, GlobalURL::ACTION_TEST, "test123")); ?>/">TestIndex</a></li>
           </ul>
         </div>
         <?php

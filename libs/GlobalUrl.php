@@ -22,6 +22,7 @@ class GlobalUrl
     const ACTION_RESET = "reset";
     const ACTION_REFRESH = "refresh";
     const ACTION_CLEAR = "clear";
+    const ACTION_TEST = "test";
 
     //groupController actions
     const ACTION_ARCHIVE = "archive";

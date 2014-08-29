@@ -1,3 +1,3 @@
 $(function() {
-	alert("jquery loaded");
+	// alert("jquery loaded");
 });
