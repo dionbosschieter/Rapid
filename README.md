@@ -1,7 +1,5 @@
-WerktGoed
+Rapid
 =========
-
-I did not know how to name this repo that is why it has this random name. :)
 
 This is a super simple MVC FrameWork, i build it and use it for rapid prototyping projects.
 
