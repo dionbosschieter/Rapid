@@ -7,7 +7,7 @@
  */
 class GlobalUrl
 {
-    const SITEROOT = "/werktgoed";
+    const SITEROOT = "";
 
     //sections
     const SECTION_HOME = "view";
@@ -26,10 +26,6 @@ class GlobalUrl
 
     //groupController actions
     const ACTION_ARCHIVE = "archive";
-    const ACTION_EXPORTRESULT = "exportresult";
-    const ACTION_EXPORTGROUP = "exportgroup";
-    const ACTION_GROUPRESET = "groupreset";
-
 
     public static function redirect($url)
     {

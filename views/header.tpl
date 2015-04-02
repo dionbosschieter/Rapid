@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><?php echo $this->_model->sitetitle; ?></title>
+    <title>Rapid</title>
     <!--metatags-->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,7 +29,7 @@
       <div class="container">
         <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand site-logo" href="<?php echo GlobalUrl::SITEROOT; ?>/">WerktGoed</a>
+          <a class="navbar-brand site-logo" href="<?php echo GlobalUrl::SITEROOT; ?>/">Rapid</a>
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
@@ -37,7 +37,6 @@
               <span class="icon-bar"></span>
             </button>
         </div>
-        <?php $this->renderMenuBox(); ?>
         </div><!--/.container-fluid -->
       </div>
     </div>

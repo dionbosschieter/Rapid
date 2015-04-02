@@ -7,19 +7,14 @@
 
 $route = Route::getInstance();
 
-$route->add('/', 'index', array("default" => "index",));
-$route->add('/test/:hash', 'index', array("specialvalue" => 1, "default" => "test",));
+$route->add('/', 'HomeController', ["default" => "index"]);
+$route->add('/api', 'ApiController', ["default" => "index"]);
 
 /*
  * Login Pages
  */
-$route->add('/login', 'login', array("default" => "index",));
-$route->add('/login/:action', 'login', array("action" => 1, "default" => "index",));
-
-/*
- * Ajax/json pages
- */
-$route->add('/ajax/:action', 'ajax', array("action" => 1, "default" => "more",));
+$route->add('/login', 'LoginController', ["default" => "index"]);
+$route->add('/login/:action', 'LoginController', ["action" => 1, "default" => "index"]);
 
 if ($route->submit() == false) {
   $route->error();

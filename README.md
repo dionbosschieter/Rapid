@@ -2,7 +2,6 @@ Todo
 =========
 * Add doctrine as DB model
 * Add composer as autoloader
-* Remove all view classes
 * Use compact/extract for view variables
 
 Rapid
