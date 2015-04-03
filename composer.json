@@ -13,6 +13,6 @@
 	},
 	"require": {
 		"guzzlehttp/guzzle": "~5.2",
-    		"sunra/php-simple-html-dom-parser": "v1.5.0"
+    		"doctrine/orm": "2.5.0"
 	}
 }
