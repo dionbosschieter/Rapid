@@ -23,7 +23,7 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body class="<?php echo $this->_model->pagecontext; ?>">
+  <body>
 
     <div id="site-navbar" class="navbar navbar-default" role="navigation">
       <div class="container">
