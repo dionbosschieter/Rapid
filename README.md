@@ -1,8 +1,11 @@
 Todo
 =========
 * Add doctrine as DB model
-* Add composer as autoloader
+* ~~Add composer as autoloader~~
 * Use compact/extract for view variables
+* Add nginx conf file 
+* Create routes.php file
+* Refactor Router script
 * Implement Symfony Request
 * Implement Symfony HTTP Kernell
 
