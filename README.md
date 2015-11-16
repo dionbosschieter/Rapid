@@ -7,7 +7,7 @@ Todo
 * Create routes.php file
 * Refactor Router script
 * Implement Symfony Request
-* Implement Symfony HTTP Kernell
+* Write a HTTP Kernell
 
 Rapid
 =========
